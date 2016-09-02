@@ -33,7 +33,7 @@ grant all on all sequences in schema "public" to liolio;
 #### Install
 ```bash
 npm install -g node-gyp nw-gyp node-pre-gyp
-npm install -g express-admin
+npm install -g Node_WebAdmin
 
 # build sqlite3 for node@0.10.x
 nvm use 10
@@ -44,7 +44,7 @@ nvm use 12
 npm install -g sqlite3@3.0.5
 
 # build sqlite3 for nw@0.8.6
-cd express-admin-tests
+cd Node_WebAdminTests
 npm install
 npm install sqlite3 --build-from-source --runtime=node-webkit --target_arch=x64 --target=0.8.6
 
@@ -52,4 +52,4 @@ npm install sqlite3 --build-from-source --runtime=node-webkit --target_arch=x64 
 nw .
 ```
 
-  [0]: https://github.com/simov/express-admin
+  [0]: https://github.com/TKimura416/Node_WebAdmin
